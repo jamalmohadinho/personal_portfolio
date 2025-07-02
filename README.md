@@ -13,8 +13,16 @@ This repository contains the full personal website project of Jamal Apicha.
 
 ## Project Structure
 
-index.html Main HTML page
+index.html : Main HTML page
 
-styles.css Stylesheet for the website
+styles.css : Stylesheet for the website
 
-script.js JavaScript for interactivity
+script.js : JavaScript for interactivity
+
+## Author
+
+**Jamal Apicha**
+
+- Computer Science & Engineering Student at The Ohio State University
+- [LinkedIn](https://linkedin.com/in/jamalapicha)
+- Email: jamalapicha1@gmail.com
