@@ -1,8 +1,9 @@
 # Personal Website
 This repository contains the full personal website project of Jamal Apicha.
 
- **HTML, CSS, and JavaScript**
-The website is designed to showcase my portfolio, experience, and personal information in a clean, professional format.
+ #HTML, CSS, and JavaScript
+ 
+ The website is designed to showcase my portfolio, experience, and personal information in a clean, professional format.
 
 ## Features
 - Simple and semantic HTML structure
