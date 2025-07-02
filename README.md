@@ -13,11 +13,11 @@ This repository contains the full personal website project of Jamal Apicha.
 
 ## Project Structure
 
-index.html : Main HTML page
+**index.html** : Main HTML page
 
-styles.css : Stylesheet for the website
+**styles.css** : Stylesheet for the website
 
-script.js : JavaScript for interactivity
+**script.js** : JavaScript for interactivity
 
 ## Author
 
