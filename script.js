@@ -123,34 +123,34 @@ function initializeSmoothScrolling() {
   });
 }
 
-// Scroll effects and animations
-function initializeScrollEffects() {
-  // Intersection Observer for fade-in animations
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: "0px 0px -50px 0px",
-  };
+// // Scroll effects and animations
+// function initializeScrollEffects() {
+//   // Intersection Observer for fade-in animations
+//   const observerOptions = {
+//     threshold: 0.1,
+//     rootMargin: "0px 0px -50px 0px",
+//   };
 
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = "1";
-        entry.target.style.transform = "translateY(0)";
-      }
-    });
-  }, observerOptions);
+//   const observer = new IntersectionObserver(function (entries) {
+//     entries.forEach((entry) => {
+//       if (entry.isIntersecting) {
+//         entry.target.style.opacity = "1";
+//         entry.target.style.transform = "translateY(0)";
+//       }
+//     });
+//   }, observerOptions);
 
-  // Observe elements for animation
-  const animatedElements = document.querySelectorAll(
-    ".project-card, .experience-item, .contact-item, .skill-item"
-  );
+//   // Observe elements for animation
+//   const animatedElements = document.querySelectorAll(
+//     ".project-card, .experience-item, .contact-item, .skill-item"
+//   );
 
-  animatedElements.forEach((element) => {
-    element.style.opacity = "0";
-    element.style.transform = "translateY(30px)";
-    element.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-    observer.observe(element);
-  });
+//   animatedElements.forEach((element) => {
+//     element.style.opacity = "0";
+//     element.style.transform = "translateY(30px)";
+//     element.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+//     observer.observe(element);
+//   });
 
   // Parallax effect for hero section
   window.addEventListener("scroll", function () {
