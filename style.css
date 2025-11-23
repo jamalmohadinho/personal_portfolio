@@ -103,13 +103,13 @@ body {
   padding: 0 20px;
 }
 .hero-content {
-  /* display: grid; */
+  display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 4rem;
   align-items: center;
 }
 .hero-image {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
 }
 .profile-placeholder {
