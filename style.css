@@ -18,6 +18,66 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.cert-card {
+    background: #0e4f4f;
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+    max-width: 650px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cert-card h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.issuer {
+    color: #aad9ff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.issued-date {
+    color: #d1e7e7;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cert-btn, .resume-btn {
+    display: inline-block;
+    background-color: #00a3c8;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.cert-btn:hover, .resume-btn:hover {
+    background-color: #0086a8;
+}
+
+.cert-tags {
+    margin-top: 20px;
+}
+
+.cert-tags span {
+    display: inline-block;
+    background: #008080;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-right: 8px;
+    font-size: 13px;
+}
+
 /* Navigation Styles */
 .navbar {
   position: fixed;
